@@ -60,6 +60,8 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-512.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-512%402x.png" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Image.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Image.imageset\Screen Shot 2019-06-27 at 4.20.05 PM.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -71,9 +73,13 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="ViewController.cs" />
-    <Compile Include="ViewController.designer.cs">
-      <DependentUpon>ViewController.cs</DependentUpon>
+    <Compile Include="VistaCalculadora.cs" />
+    <Compile Include="VistaCalculadora.designer.cs">
+      <DependentUpon>VistaCalculadora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControladorVentana.cs" />
+    <Compile Include="ControladorVentana.designer.cs">
+      <DependentUpon>ControladorVentana.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
