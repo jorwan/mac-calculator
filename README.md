@@ -5,4 +5,4 @@ On my way to remake MacOS Calculator in Xamarin Cocoa With Visual Studio Communi
 
 ## Changes Log
 - Setting windows bar title backgound color *[Done]*
-- Setting unfocus windows bat title buttons colors *[Doing]*
+- Setting unfocus windows bar title buttons colors *[Doing]*
